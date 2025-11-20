@@ -110,7 +110,6 @@ test('reset works', async () => {
   expect(taglineInput.value).toBe(mockUser.tagline)
 })
 
-/*eslint no-unused-vars:0*/
 test('failure works', async () => {
   const {
     submitButton,
